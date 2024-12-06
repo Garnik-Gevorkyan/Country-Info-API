@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: "yellow";
+}
+form {
+  display: grid;
+  grid-template: auto auto auto auto / 8em 180px;
+  gap: 1px;
+  width: 120px;
+  margin: 10px auto;
+}
+body {
+  margin: 5px;
+  text-align: center;
+  background-image: linear-gradient(
+    90deg,
+    rgb(128, 160, 187),
+    rgb(0, 255, 200)
+  );
+}
+h1 {
+  background-color: purple;
+  color: white;
+  margin: 0 0 10px 0;
+  padding: 20px;
+}
